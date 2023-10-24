@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="~/css/styles.css" />
+  <title>Formulario</title>
+</head>
+<body>
+  <h1>@ViewBag.Titulo</h1>
+  <div class="container">
+ <form action='/datosFormulario' method='post'>
+   Tu Nombre: <input type='text' name='name' id='name'>
+   <br>
+   Locacion del Dojo:
+  <select name="Dojolocation" id='location'>
+  <option value="San jose">San Jose</option>
+  <option value="Chicago">Chicago</option>
+  <option value="Texas">Texas</option>
+ </select>
+ <br>
+ Lenguaje Favorito:
+  <select name="FavoriteLanguage">
+  <option value="C#">C#</option>
+  <option value="Java">Java</option>
+  <option value="JavaScript">JavaScript</option>
+</select>
+  <p> Comentarios:</p>
+  <br>
+  <textarea name="description"></textarea>
+  <input type="submit" value="Submit" id="sub">
+</form>
+    </form>
+</div> 
+</body>
+</html>

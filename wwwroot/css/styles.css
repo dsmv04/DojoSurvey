@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+}
+
+/* Estilos para el formulario */
+form {
+    border: 5px solid #000; /* Borde de 1 píxel sólido */
+    padding: 20px; /* Espaciado interno alrededor del formulario */
+    margin: 20px;
+}
+
+form input, form select, form textarea {
+    margin-bottom: 15px; /* Agrega espacio entre elementos de formulario */
+}

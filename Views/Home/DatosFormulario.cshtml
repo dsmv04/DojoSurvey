@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Datos del Formulario";
+}
+<head>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+<div class="container">
+    <form action='/datosFormulario' method='post'>
+        <h1>Datos del Formulario</h1>
+        <p>Nombre: @ViewBag.Name</p>
+        <p>Locacion del Dojo: @ViewBag.DojoLocation</p>
+        <p>Lenguaje Favorito: @ViewBag.FavoriteLanguage</p>
+        <p>Comentario: @ViewBag.Description</p>
+    </form>
+</div>
